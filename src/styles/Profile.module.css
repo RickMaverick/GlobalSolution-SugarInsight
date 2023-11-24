@@ -1,0 +1,35 @@
+.background {
+    background: linear-gradient(to bottom, #add8ff, #ffff);
+    display: flex;
+    min-height: 59vh;
+    padding: 8rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.cadastroDados {
+    background: #96b4ff;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.label {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.userData {
+    background: #5378d7;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px 5px 15px 5px;
+    font-weight: bold;
+    color: aliceblue;
+}

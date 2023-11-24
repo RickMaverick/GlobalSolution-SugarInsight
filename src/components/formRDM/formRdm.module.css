@@ -1,0 +1,26 @@
+.formularioTeste {
+    background-color: #96b4ff;
+    border: none;
+    border-radius: 10px;
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: baseline;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    height: 27rem;
+}
+
+.input {
+    border: none;
+    border-radius: 8px;
+    width: 40rem;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.inputTitle {
+    font-weight: bold;
+    color: aliceblue;
+}

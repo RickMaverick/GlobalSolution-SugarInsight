@@ -1,0 +1,15 @@
+{
+    "projects" : [],
+    "cadastro" : [
+        {
+            "id_usuario": 1,
+            "cpf": 47517669885,
+            "sexo": "Homem",
+            "peso": 65.0,
+            "altura": 1.69,
+            "idade": 24,
+            "resultado_imc":"Obesidade Moderada",
+            "resultado_predicao": "Alto Risco"
+        }
+    ]
+}

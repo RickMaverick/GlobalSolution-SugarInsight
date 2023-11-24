@@ -1,0 +1,10 @@
+.button {
+    width: 29px;
+    height: 29px;
+    border: none;
+    border-radius: 15px;
+    background: url('../../../public/iconProfile.svg') no-repeat;
+    background-position: center;
+    background-color: #999999;
+    cursor: pointer;
+}

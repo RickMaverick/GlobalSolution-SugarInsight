@@ -1,0 +1,41 @@
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFEFEF;
+    height: 8vh;
+    display: flex;
+    gap: 100px;
+    padding: 2.5px 0 2.5px 25px;
+}
+
+.footerCategory{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footerLinkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 23px;
+}
+
+.icon {
+    background: url('../../../public/iconLinkedin.svg') no-repeat;
+    height: 18px;
+    width: 20px;
+}
+
+.footerTitle {
+    color: #bcbcbc;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footerText{
+    color: #bcbcbc;
+    text-decoration: none;
+    font-size: 12px;
+}
