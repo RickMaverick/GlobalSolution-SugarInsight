@@ -8,7 +8,7 @@ export default function Profile(){
     const [cadastro, setCadastro] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/cadastro`).then((resp)=>{
+        fetch(`http://localhost:8080/SugarInsight2.0/rest/usuario/2`).then((resp)=>{
             return resp.json();
         }).then((resp)=> {
             setCadastro(resp);
@@ -26,45 +26,27 @@ export default function Profile(){
             <div className={styles.cadastroDados}>
                 <label className={styles.label}>CPF: </label>
                 <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.cpf}</span>
-                ))}
+                {cadastro.cpf}
                 </p>
                 <label className={styles.label}>Sexo: </label>
                 <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.sexo}</span>
-                ))}
-                </p>
-                <label className={styles.label}>Peso: </label>
-                <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.peso}</span>
-                ))}
-                </p>
-                <label className={styles.label}>Altura: </label>
-                <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.altura}</span>
-                ))}
+                {cadastro.sexo}
                 </p>
                 <label className={styles.label}>Idade: </label>
                 <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.idade}</span>
-                ))}
+                {cadastro.idade}
                 </p>
-                <label className={styles.label}>IMC: </label>
+                <label className={styles.label}>Peso: </label>
                 <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.resultado_imc}</span>
-                ))}
+                {cadastro.peso}
                 </p>
-                <label className={styles.label}>Resultado do Teste RDM: </label>
+                <label className={styles.label}>Altura: </label>
                 <p className={styles.userData}>
-                {cadastro.map((dados) => (
-                    <span key={dados.id}>{dados.resultado_predicao}</span>
-                ))}
+                {cadastro.altura}
+                </p>
+                <label className={styles.label}>Resultado Predicao: </label>
+                <p className={styles.userData}>
+                {cadastro.resultadoPredicao}
                 </p>
             </div>
         </div>
