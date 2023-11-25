@@ -1,5 +1,8 @@
-LINKS PARA ACESSAR O NOSSO SISTEMA e VIDEO DO SISTEMA
-- Utilize o link: https://global-solution-sugar-insight.vercel.app/
+LINK DO REPOSITORIO GITHUB:
+- https://github.com/RickMaverick/GlobalSolution-SugarInsight
+
+LINKS PARA ACESSAR O NOSSO SISTEMA e VIDEO DO SISTEMA:
+- https://global-solution-sugar-insight.vercel.app/
 - https://clipchamp.com/watch/HdjZSfFmr1w
 
 - Apresentamos como solução a “SugarInsight”, que funciona como uma plataforma para auxiliar a prevenção e disseminação de informações sobre o diabetes mellitus tipo 2. Neste sistema haverá um teste rápido para saber se o usuário é propenso ou não a ter diabetes podendo assim, educá-lo e capacitá-lo com dicas e cuidados que podem ser aplicados de uma forma didática e simples. Em eventuais consultas o médico poderá consultar de forma rápida o histórico do paciente, assim tendo uma noção prévia do estado clínico do paciente.
